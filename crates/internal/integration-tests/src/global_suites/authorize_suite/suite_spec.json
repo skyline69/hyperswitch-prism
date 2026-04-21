@@ -9,6 +9,12 @@
       "context_map": {
         "payment_method.token.token.value": "res.payment_method_token"
       }
+    },
+    {
+      "suite": "create_order",
+      "context_map": {
+        "connector_order_id": "res.connectorOrderId"
+      }
     }
   ],
   "dependency_scope": "scenario",
